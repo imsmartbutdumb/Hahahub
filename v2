@@ -1,0 +1,38 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("HahaHub", "DarkTheme")
+
+local Main = Window:NewTab("Universal")
+local MainSection = Main:NewSection("Scripts")
+
+MainSection:NewSlider("WalkSpeed", "How fast you walk", 1000, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+MainSection:NewButton("Universal Silent Aim", "Shoot kids thru walls in any game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/EHbHHMq7"))()
+end)
+
+MainSection:NewButton("Walk On Walls", "READ NAME DUMBASS", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+end)
+
+MainSection:NewButton("No Clip", "walk thru wall", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/pKV2Ys4E"))()
+end)
+
+MainSection:NewButton("emoji chat", "idk prefix is .", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/omegachadgaming/mongus/main/main.lua"))()
+end)
+
+
+-----------lumber tycoon
+local lumber = Window:NewTab("lumbertycoon")
+local lumbertycoon = lumber:NewSection("Main")
+
+lumbertycoon:NewButton("Butter Hub", "Best script for lumbertycoon2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Butterisgood/butter-hub/main/Butterhub.txt"))()
+end)
+
+lumbertycoon:NewButton("Dragon Dupe Gui", "good for modding wood", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DragonDupe/YouTube/main/Dragon-Dupe-V.2_G.2.txt"))()
+    end)
